@@ -1,0 +1,46 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "Raleway";
+}
+
+body {
+    margin: 0 auto;
+}
+
+header.header {
+    display: flex;
+
+}
+header.header img {
+    width: 150px;
+}
+
+section.page-montage {
+    background: url("../Images/15151445_5559852.jpg");
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.big-title {
+    font-size: 40px;
+    padding: 20px 50px;
+    font-family: Boldonse;
+}
+
+/* menu de nav */
+
+nav.nav {
+    display: flex;
+    list-style: none;
+    margin-left: 1500px; 
+    margin-top: 60px;  
+}
+
+nav.nav li {
+    color: whitesmoke;
+}
